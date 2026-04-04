@@ -1,0 +1,95 @@
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:0  10PX;
+color:white;
+position:absolute;
+width:100%;
+z-index:2;
+background-color: #555;
+}
+
+li a{
+    text-decoration: none;
+    color: white;;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:25px;
+}
+
+.logo{
+display: flex;
+font-weight:600;
+font-size:24px;
+padding: 2px;
+}
+.clc{
+    margin-top: 65px;
+    margin-left: 10px;
+}
+
+.imnew-page {
+  min-height: 100vh;
+  padding: 120px 40px 60px;
+  background: url('../../../../assets/images/imnew.jpg') center/cover no-repeat;
+}
+
+.hero-card {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+  padding: 60px;
+  border-radius: 30px;
+  background: rgba(255,255,255,0.12);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  color: white;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.18);
+}
+
+.hero-card h1 {
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+.hero-card p {
+  font-size: 22px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.hero-card button {
+  padding: 16px 28px;
+  border: none;
+  border-radius: 12px;
+  background: #c49b66;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.info-grid {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.info-card {
+  padding: 30px;
+  border-radius: 24px;
+  background: rgba(255,255,255,0.12);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  color: white;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+}
+
+.info-card h2 {
+  margin-bottom: 15px;
+  font-size: 28px;
+}

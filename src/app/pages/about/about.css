@@ -1,0 +1,140 @@
+/* HERO MISSION */
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#f6f6f6;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:0  10PX;
+color:white;
+position:absolute;
+width:100%;
+z-index:2;
+background-color: #555;
+}
+
+li a{
+    text-decoration: none;
+    color: white;;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:25px;
+}
+
+.logo{
+display: flex;
+font-weight:600;
+font-size:24px;
+padding: 2px;
+}
+.clc{
+    margin-top: 65px;
+    margin-left: 10px;
+}
+
+
+.about-hero{
+padding-top: 2%;
+height:700px;
+background:url(../../../assets/images/aboutB.jpg) center/cover no-repeat;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+position:relative;
+font-style: Archivo Black, sans-serif;
+}
+
+.hero-overlay{
+background:rgba(0,0,0,0.6);
+padding:60px;
+max-width:700px;
+}
+
+.about-hero h1{
+font-size:48px;
+letter-spacing:2px;
+margin-bottom:15px;
+}
+
+.about-hero p{
+line-height:1.7;
+}
+
+
+
+
+
+
+/* BELIEFS */
+
+.belief-section{
+padding:80px 10%;
+background:#f4f4f4;
+}
+
+.belief-container{
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:40px;
+flex-wrap:wrap;
+}
+
+.belief-text{
+flex:1;
+}
+
+.belief-text h2{
+margin-bottom:20px;
+}
+
+.belief-text p{
+margin-bottom:20px;
+line-height:1.6;
+}
+
+.belief-image img{
+width:300px;
+border-radius:6px;
+}
+
+
+.team-section{
+padding:80px 15%;
+text-align:center;
+background:#f7f7f7;
+}
+
+.team-section h2{
+font-size:32px;
+margin-bottom:30px;
+}
+
+.leaders-group img{
+width:1000px;
+max-width:1000px;
+border-radius:8px;
+box-shadow:0 6px 15px rgba(0,0,0,0.15);
+margin-bottom:20px;
+}
+
+.leaders-group p{
+max-width:700px;
+margin:auto;
+line-height:1.7;
+color:#555;
+}

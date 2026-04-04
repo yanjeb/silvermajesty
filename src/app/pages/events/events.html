@@ -1,0 +1,44 @@
+<header>
+    <nav>
+        <div class="logo">
+            <img src="CLC LOGO.png">
+
+    <div class="clc">Christian Life Center Tagum Campus</div>
+        </div>
+    <div>
+        <ul>
+            <li><a routerLink="/home">Home</a></li>
+            <li><a routerLink="/about">About</a></li>
+            <li><a routerLink="/ministries">Ministries</a></li>
+            <li><a routerLink="/events">Events</a></li>
+            <li><a routerLink="/announcements">Announcements</a></li>
+        </ul>
+    </div> 
+    </nav>
+</header>
+
+<section class="events-page">
+  <div class="overlay">
+    <h1>Upcoming Events</h1>
+    <p>Join us in worship, fellowship, and life-changing gatherings.</p>
+
+    <div class="events-grid">
+      <div class="event-card" *ngFor="let event of events">
+        <img [src]="event.image" [alt]="event.title">
+
+        <div class="event-content">
+          <span class="date">{{ event.date }}</span>
+          <h2>{{ event.title }}</h2>
+          <p>{{ event.description }}</p>
+
+          <div class="event-meta">
+            <span>📍 {{ event.location }}</span>
+            <span>⏰ {{ event.time }}</span>
+          </div>
+
+          <button>View Details</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

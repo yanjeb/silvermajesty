@@ -1,0 +1,133 @@
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:0  10PX;
+color:white;
+position:absolute;
+width:100%;
+z-index:2;
+background-color: #555;
+}
+
+li a{
+    text-decoration: none;
+    color: white;;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:25px;
+}
+
+.logo{
+display: flex;
+font-weight:600;
+font-size:24px;
+padding: 2px;
+}
+.clc{
+    margin-top: 65px;
+    margin-left: 10px;
+}
+
+
+.events-page {
+  min-height: 100vh;
+  padding: 120px 40px 60px;
+  background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+              url('../../../assets/images/ministries\ bck.jpg') center/cover no-repeat;
+}
+
+.overlay {
+  max-width: 1400px;
+  margin: auto;
+  text-align: center;
+}
+
+.overlay h1 {
+  font-size: 56px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.overlay p {
+  color: rgba(255,255,255,0.9);
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+}
+
+.event-card {
+  background: rgba(255,255,255,0.12);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255,255,255,0.18);
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+  transition: transform 0.3s ease;
+}
+
+.event-card:hover {
+  transform: translateY(-8px);
+}
+
+.event-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.event-content {
+  padding: 25px;
+  text-align: left;
+}
+
+.date {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #f7d7a5;
+  font-weight: bold;
+}
+
+.event-content h2 {
+  color: white;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.event-content p {
+  color: rgba(255,255,255,0.9);
+  margin-bottom: 18px;
+}
+
+.event-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: rgba(255,255,255,0.85);
+  margin-bottom: 20px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 12px;
+  background: #c49b66;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #a67c52;
+}
